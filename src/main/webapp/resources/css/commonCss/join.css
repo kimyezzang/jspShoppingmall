@@ -1,0 +1,66 @@
+@charset "UTF-8";
+#idChkButton, #emailChkButton{
+	color: #5F0080;
+	background : white;
+	font-size: 14px;
+	font-weight:bold;
+	width:120px;
+	height:44px;
+	border-radius:3px;
+	outline:none;
+	border: 1px solid #5F0080;
+	margin-top:10px;
+}
+#container{
+	width:  700px;
+	height: 700px;
+	margin: 0 auto;
+	/* border: 1px solid; */
+}
+#container fieldset{
+	margin-top:100px;
+	/* height: 200px; */
+	border: 0px;
+}
+legend{
+	margin: 0 auto;
+	list-style:none;
+	border: none;
+}
+legend b{
+	font-size:22px;
+}
+
+#join tr{
+	margin-top:15px;
+	width:300px;
+	height:50px;
+	/* border: 1px solid; */
+}
+
+#join tr td input[type=text], #join tr td input[type=password]{
+	width:350px;
+	height:20px;
+	padding:10px;
+	margin: 10px 7px 0 10px;
+}
+#join{
+	margin: 0 auto;
+}
+
+#join tr td input[type=submit]{
+	width:238px;
+	height:54px;
+	color:white;
+	background: #5F0080;
+	border: 1px black solid;
+	border-radius: 5px;
+	margin-left: 180px;
+
+}
+
+#container fieldset{
+	margin-top:50px;
+	height: 600px;
+	/* border: 1px solid; */
+}

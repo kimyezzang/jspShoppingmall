@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+#container{
+	width:  1000px;
+	height: 900px;
+	margin: 0 auto;
+	/* border: 1px solid; */
+}
+
+.basketSelectAll{
+	width: 650px;
+	height: 40px;
+	border-bottom: 1px solid;	
+	
+	
+}
+.basketSelectAll>div{
+	float: left;
+	width: 150px;
+	height: 25px;
+	/* border: 1px solid;	 */
+	text-align: center;
+	margin-top: 5px;
+}
+.basketSelectAll>div i{
+	color: #d9d9d9;
+}
+.basketSelectAll>div>p{
+	font-size: 15px;	
+}
+.basketSelectAll>div:nth-child(1) p{
+	border-right: 1px solid #d9d9d9;	
+}
+.basketSelectAll>div:nth-child(2) p{
+	margin-right: 60px;
+}
+.basketTitle{
+	width: 1000px;
+	height: 100px;
+	/* border: 1px solid;	 */
+}
+.basketTitle h2{
+	margin-top: 30px;
+	text-align: center;	
+}
+
+
+.basketSelectedProdcut{
+	width: 650px;
+	height: 650px;
+	/*  border: solid 1px;  */
+	margin: 20px 0 0 10px;
+}
+
+.basketSelectedProdcut img{
+	width: 85px;
+	height: 100px;	
+	border: 1px solid; 
+}
+
+/* td{
+	margin-left: 50px;
+} */
+.basketSelectedProdcut{
+	
+	display: inline;
+} 
+
+.basketSelectTable{
+		border: 0px;
+		display: inline;
+}
+
+.basketSelectedProdcut td:nth-child(1){
+	width:35px;
+}
+.basketSelectedProdcut td:nth-child(1) i{
+	color: #d9d9d9;
+}
+.basketSelectedProdcut td:nth-child(2){
+	width:100px;
+	height:130px;
+}
+.basketSelectedProdcut td:nth-child(3){
+	width:200px;
+}
+.basketSelectedProdcut td:nth-child(3) p{
+	text-align: center;
+}
+
+.basketSelectedProdcut td:nth-child(4){
+	width:100px;
+}
+.basketSelectedProdcut td:nth-child(5){
+	width:100px;
+}
+.basketSelectedProdcut td:nth-child(5) p{
+	font-size: 17px;
+}
+.basketSelectedProdcut td:nth-child(6){
+	width:70px;
+}
+.basketSelectedProdcut td:nth-child(6) p{
+	text-align: center;
+}
+
+/* 오른쪽 메뉴 */
+.basketOrder{
+	width: 280px;
+	height: 400px;
+	/* border: 1px solid; */
+	float:right;
+	margin: 0 45px 0 0;
+	
+}
+
+.basketOrder p{
+	font-size:18px;	
+	margin-left:15px;
+}
+.basketOrder_1{
+	background: white;
+	border: dotted purple 1px;
+}
+
+.basketOrder_2{
+	 background: #f5f5f5; 
+	 /* border: dotted purple 1px; */
+}
+
+ #btn{
+	margin-top: 15px;
+	width:280px;
+	height:50px;
+	color:white;
+	background: #5F0080;
+	border: 1px red solid;
+	border-radius: 5px;
+}
+

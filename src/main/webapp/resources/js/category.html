@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jsTitle</title>
+<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+
+	$(function(){
+	$(".navbar>li>a").mouseover(function(){
+		$(".navbar>li>ul").stop().slideUp("fast");
+		$(this).next().stop().slideDown("fast");
+	});
+	$(".navbar>li>ul").mouseleave(function(){
+		$(".navbar>li>ul").stop().slideUp("fast");
+	});
+	});
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

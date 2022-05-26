@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+#container{
+	width: 1200px;
+	height: 800px;
+	/* border: 1px solid; */
+	margin: 0 auto;
+}
+
+/*  myPageLogo    */
+.myPageLogo{
+	/* border: 1px solid; */
+	width: 250px;
+	height: 120px;
+	float: left;
+}
+.myPageLogo h3{
+	margin: 70px 0 0 50px;
+}
+/* 주문내역 */
+.myPageOrderListTitle{
+	width: 800px;
+	height: 120px;
+	/* border: 1px solid; */
+	margin-left: 50px;
+}
+
+.myPageOrderListTitle h3{
+	margin:70px 0 0 150px;
+	padding-top:70px;
+	padding-left: 100px;
+}
+/* 왼쪽바 메뉴 시작 */
+.leftMenu{
+	/*  border: 1px solid;  */
+	width: 250px;
+	height: 150px;
+	font-weight: bold;	
+	float:left;
+}
+
+.leftMenu td{
+	border: 1px solid gray;
+	padding: 15px 0 15px 30px;
+	width: 140px;
+	
+}
+
+
+.leftMenu tr:nth-child(1)>td{
+	color: purple;
+}
+
+
+/* 주문내역 내용 */
+.orderListContent{
+	/* border: 1px solid; */
+	width: 900px;
+	height: 550px;
+	float:left;
+	padding: 0 0 0 10px;
+}
+.orderListContent table{
+	height: 150px;
+	width: 800px;
+	border-top: 2px solid purple; 
+}
+.orderListContent td{
+	padding-left:30px;
+}
+.orderListImg img{
+	width:90px;
+	height:120px;	
+}
+
+.orderListContent tr td input[type=button]{
+	width:70px;
+	height:30px;
+	color:white;
+	background: #5F0080;
+	border: 1px black solid;
+	border-radius: 5px;
+}

@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* 개인 플젝 */
+
+ *{ margin: 0; padding: 0; 
+	list-style: none;	
+	text-decoration: none; 
+	color: #000;
+	} 
+	
+/* *{ padding-bottom: 20px; 
+	list-style: none;	
+	text-decoration: none; 
+	color: #000;
+	}
+
+div {
+   display : block;
+} */
+
+.boardContentCommentList {
+	position : relatvie;
+	margin : 0 auto;
+}
+
+/*---------------------header----------------------------*/
+#header{
+	height: 65px;
+	border-bottom: 1px solid purple;
+	
+}
+
+.header_wrap{
+	/* border: solid 1px red; */
+	width: 1200px;
+	height: 65px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: -10px 0 0  10px;
+	float: left;
+	
+}
+
+h1 img{
+	width: 100px;
+	height: 65px;
+	
+}
+
+.nav{
+	margin: 40px 0 0 200px; 
+	width: 880px;
+	height: 50px;
+	/* border: 1px solid; */
+}
+
+.navbar a{
+	display: block;	
+	text-align: center;
+}
+
+.navbar>li{
+	float: left;
+	width: 140px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.navbar>li>a{
+	 height: 50px;
+	 line-height: 50px;
+	 
+}
+.navbar>li>a:hover,.navbar>li>a>i:hover{
+	color: #5f0080;
+	text-decoration: underline; 
+	
+}
+
+.navbar>li ul{
+	position: absolute;
+	background: white;
+	display: none;
+	
+}
+
+.navbar>li ul a{
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.navbar>li ul a:hover{
+	background: #f7f7f7;
+	color: #5f0080;
+}
+
+.navbar input[type=text]{	/* 검색창 */
+	width: 250px;
+	height: 30px;
+	border-radius: 25px;
+	border: 0;
+	background: rgba(0,0,0,0.04);
+	text-align: center;
+	margin-left: 20px;
+}
+.navbar input[type=button] {
+	background : #5f0080;
+	color: white;
+	border-radius:5px;
+	width:40px;
+}
+/* 오른쪽 위 유틸메뉴 */
+.util_menu{
+	float: right;
+	margin: -70px 50px 0 0;
+	
+}
+.util_menu li {
+	float: left;
+	width: 70px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+}
+
+.util_menu li a {
+	font-size: 13px;
+}
+.util_menu li:nth-child(1), .util_menu li:nth-child(2){
+	border-right: 1px solid #d9d9d9;
+}
+.util_menu li a:hover {
+	text-decoration: underline;
+	color: #5f0080;
+}
+
+/*---------------------footer----------------------------*/
+#footer{
+	height: 200px;
+	background: #3B0851;
+	/* opacity: 0.8; */
+}
+.footer_info{
+	width: 1200px;
+	margin: 0 auto;
+	height: 200px;
+	
+}
+
+.footer_link ul{
+	float: left;	
+	height: 50px;
+	line-height: 50px;
+	width: 1200px;
+	margin: 7px 0 0 15px;
+}
+.footer_link ul a {
+	color: white;
+}
+.footer_link ul a:hover {
+	opacity:0.5;
+	text-decoration: underline;
+}
+
+.footer_link li{
+	float:left;
+	width: 150px;
+}
+
+.footer_info_customer h3{
+	color: white;
+	margin: 0 0 15px 15px;
+}
+
+.footer_info_customer p, .footer_info_company strong{
+	color: white;
+	margin: 0 0 15px 15px;
+}
+
+.footer_info_company span{
+	color: #d9d9d9;
+}

@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+#container{
+	margin: 80px auto;
+	width: 1200px;
+	height: 900px;
+	/* border: 1px solid; */
+}
+
+.container_inner{
+	margin: 80px auto;
+	width: 1150px;
+	height: 870px;
+	/* border: 1px solid;	 */
+}
+
+.productInfoImage img{
+	width: 430px;
+	height: 550px;
+	/* border: 1px solid; */
+	float: left;
+	margin : 0 60px 0 0;
+	
+}
+
+.productInfoFirst{
+	width: 1150px;
+	height: 70px;
+/* 	border: 1px solid; */
+
+	
+}
+.productInfoBrand>p{
+		float:left;
+		margin-right: 10px;
+		margin-top: 15px;
+		font-size:25px;
+		font-weight: bold;
+}
+
+.productInfoName>p{
+/* 	margin-top: 30px; */
+	font-size:25px;
+	font-weight: bold;
+	/* border: 1px solid; */
+	padding-top:15px;
+}
+
+/* 가격 부터 */
+.productInfoSecond{
+	width: 1150px;
+	height: 500px;
+	/* border: 1px solid; */
+}
+
+.ProductInfoPrice{
+	font-size:25px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.ProductInfoKind , .ProductInfoMaterial, .ProductInfoShip, .ProductInfoSelectProduct{
+	font-weight: bold;
+	margin-top: 15px;
+	margin-right: 70px;
+	float:left;
+	
+}
+
+.ProductInfoKind2, .ProductInfoMaterial2, .ProductInfoShip2, .ProductInfoSelectProduct2 {
+	margin-top: 15px;
+	margin-left: 15px;
+	/* border: 1px solid; */
+}
+.productInfoSecond hr{
+	margin-top: 15px;
+}
+
+.ProductInfoCountProduct{
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.productInfoContent{
+	margin-top: 15px;
+	padding-right: 10px;
+}
+
+.buttonCount{
+	margin-left: 64px;
+}
+
+.ProductInfoTotalPrice{
+	/* border: 1px solid; */
+	width: 300px;
+	height: 80px;
+	float: left;
+	
+}
+.ProductInfoTotalPrice2{
+	float:left;
+	margin-right:20px;
+	margin-top:25px;
+	font-weight: bold;
+	color:purple;
+}
+.ProductInfoTotalPrice3{
+	margin-right:20px;
+	margin-top:15px;
+	font-weight: bold, i;
+	font-size:25px;
+}
+
+.ProductInfoToBasketBtn{
+		margin:100px 0 0 0;
+}
+.ProductInfoToBasketBtn input[type=button], .ProductInfoToBasketBtn input[type=submit]{
+	
+	
+	width:150px;
+	height:50px;
+	color:white;
+	background: #5F0080;
+	border: 1px black solid;
+	border-radius: 5px;
+}

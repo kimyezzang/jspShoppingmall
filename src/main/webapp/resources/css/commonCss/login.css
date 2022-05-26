@@ -1,0 +1,63 @@
+@charset "UTF-8";
+#wrap{
+	height: 900px;
+}
+ #container2{
+	width:  600px;
+	height: 500px;
+	margin: 0 auto;
+
+}
+#container2 fieldset{
+	margin-top:100px;
+	/* height: 200px; */
+	border: 0px;
+}
+
+.login {
+	margin: 35px auto;
+}
+legend{
+	margin: 0 auto;
+	list-style:none;
+}
+legend b{
+	font-size:22px;
+}
+.login tr{
+	margin-top:15px;
+	width:300px;
+	height:50px;
+	border: 1px solid;
+}
+.login tr td input[type=text], .login tr td input[type=password]{
+	width:300px;
+	height:30px;
+	padding:10px;
+	margin-top: 7px;
+}
+.login tr td input[type=submit]{
+	width:326px;
+	height:50px;
+	color:white;
+	background: #5F0080;
+	border: 1px rgb(0, 0, 0) solid;
+	border-radius: 5px;
+}
+
+.hostLogin{
+	width:326px;
+	height:50px;
+	color:white;
+	background: #5F0080;
+	border: 1px red solid;
+	border-radius: 5px;
+	margin-left:137px;
+	margin-bottom:20px;
+}
+/* .util_menu li:nth-child(1) */
+.login tr td p{
+	float:right;
+	font-size:12px;
+	margin-top: 0px;
+}

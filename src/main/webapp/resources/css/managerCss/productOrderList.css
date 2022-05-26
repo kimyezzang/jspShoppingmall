@@ -1,0 +1,142 @@
+@charset "UTF-8";
+h2{
+	text-align: -webkit-center; 
+	margin-top: -600px;
+	
+}
+
+@font-face {
+    font-family: 'SEBANG_Gothic_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#contents {
+	max-width: 1240px;
+	min-width: 1240px;
+	width: 100%;
+	margin: 0 auto;
+	min-height: 800px;
+}
+
+#section2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+hr {
+    border-bottom-width: thick;
+    background-color: #5f0080;
+}
+
+/* 왼쪽 메뉴바 */
+#left {
+	width: 12%;
+	background: #404040;
+	margin-top: 20px;
+	height: 100%;
+	border-radius: 10px;
+	margin-right: 50px;
+}
+
+.left_inside {
+	background: whitesmoke;
+	margin: 0 0 0 0;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+    text-align-last: center;
+}
+
+.menubarL {
+	margin-left: -40px;
+}
+
+.inputButton {
+	
+}
+
+.menubarL li {
+	list-style: none;
+	
+	color: #1b0a3f;
+}
+
+.menubarL li a {
+	color: #1b0a3f;
+	text-decoration: none;
+	
+}
+.order_menu{
+	margin-left: -40px;
+}
+.order_menu li a{
+	color: #5f0080;
+	
+}
+/* 오른쪽 내용 */
+#right {
+	width: 88%;
+}
+
+.table_div {
+	margin-top: 50px;
+}
+
+.table_div table {
+    border-collapse: collapse;
+}
+
+.table_div table th, td {
+	text-align: center;
+	font-family: 'SEBANG_Gothic_Regular';
+	height: 40px;
+	border-bottom: 1px solid black;
+} 
+
+.table_div table th {
+	background: #FDE3E9;
+}
+
+.table_div table td {
+	background: #FDFDFD;
+}
+
+#right { 
+   text-align: -webkit-center;
+}
+
+.inputButton {
+	font-family: 'SEBANG_Gothic_Regular';
+	background-color: #FDE3E9;
+	font-size: 16px;
+	
+}
+
+.input {
+	 font-family: 'SEBANG_Gothic_Regular';
+	
+}
+
+/* 승인 취소 버튼 */
+.orderBtn{
+	float:right;	
+	
+	margin: 15px 24px 0 0 ;
+
+}
+
+.orderBtn input[type=button]{
+	color:white;
+	background: #5F0080;
+	border: 1px solid;
+	border-radius: 5px;
+	width:45px;
+	height:25px;
+}

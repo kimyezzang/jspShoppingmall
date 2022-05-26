@@ -1,0 +1,83 @@
+@charset "UTF-8";
+table{
+	width:1000px;
+	height:150px;
+	border-top: 2px solid purple; 
+	border-bottom: 1px solid gray; 
+	
+}
+
+table>tr>td{
+	width:100px;
+	height:80px;
+}
+
+
+#container table td:nth-child(1){
+	width:100px;
+	text-align:center;
+	background:#efefef;
+	font-weight:bold;
+}
+#container table td:nth-child(2){
+	padding-left:50px;
+}
+
+.boardContent{
+	width:1000px;
+	height: 400px;
+	border-bottom: 1px solid;
+	margin-bottom:10px;
+}
+
+.boardContent p{
+	width:900px;
+	height: 350px;
+	/* border: 1px solid;	 */
+	margin: 15px 0 0 15px;
+	float:left;
+}
+
+/* 댓글 */
+.boardContentCommentAdd{
+	width:900px;
+	height: 350px;
+	/* border: 1px solid;	 */
+	margin-left:15px;
+}
+.boardContentCommentAdd h5{
+	margin-bottom:15px;
+}
+.boardContentCommentAdd input[type=button]{
+	width:60px;
+	height:35px;
+	color:white;
+	background: #5F0080;
+	border: 1px red solid;
+	border-radius: 5px;
+}
+
+.boardContentCommentAdd input[type=text]{
+	width:800px;
+	height:35px;
+	margin-bottom:15px;
+}
+
+.id p {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom:15px;
+}
+.date p{
+	margin-top: 10px;
+	font-size: 14px;	
+	margin-bottom:10px;
+}
+
+hr{
+	margin-bottom:5px;	
+}
+.listReturn{
+	margin-top: 30px;
+	float:right;	
+}

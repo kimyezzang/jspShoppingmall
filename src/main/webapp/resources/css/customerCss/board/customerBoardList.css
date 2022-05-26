@@ -1,0 +1,84 @@
+@charset "UTF-8";
+#container {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+#section1 {
+	margin: 50px 0 50px 0 ;
+	display:inline;
+	
+	position: relative;
+	left:45%;
+}
+#section1 h1{
+	display:inline;
+}
+#contents {
+	max-width: 1240px;
+	min-width: 1240px;
+	width: 100%;
+	margin: 100px auto;
+	min-height: 800px;
+}
+
+#section2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+hr {
+    border-bottom-width: thick;
+}
+/* 오른쪽 내용 */
+#right {
+	width: 88%;
+}
+
+.table_div {
+	margin-top: 50px;
+}
+
+.table_div table {
+    border-collapse: collapse;
+}
+
+.table_div table th, td {
+	text-align: center;
+	font-family: 'SEBANG_Gothic_Regular';
+	height: 40px;
+	border-bottom: 1px solid black;
+} 
+
+.table_div table th {
+	/*  background: #FDE3E9; */
+	background: #7b007b;
+	color: white;
+}
+
+.table_div table td {
+	background: #FDFDFD;
+}
+
+#right { 
+   text-align: -webkit-center;
+}
+
+#btnInsert {
+	width:60px;
+	height:30px;
+	color:white;
+	background: #5F0080;
+	border: 1px black solid;
+	border-radius: 5px;
+	float:right;
+	margin: 20px 0px 10px 0;
+	
+}
+
+.input {
+	 font-family: 'SEBANG_Gothic_Regular';
+	
+}
+
+/* .util_menu li:nth-child(1) */

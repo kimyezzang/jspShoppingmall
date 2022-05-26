@@ -1,0 +1,147 @@
+@charset "UTF-8";@charset "UTF-8";
+
+#container{
+	width: 1200px;
+	height: 800px;
+	/* border: 1px solid; */
+	margin: 0 auto;
+}
+
+#emailChkButton{
+	color: #5F0080;
+	background : white;
+	font-size: 14px;
+	font-weight:bold;
+	width:120px;
+	height:44px;
+	border-radius:3px;
+	outline:none;
+	border: 1px solid #5F0080;
+	margin-top:10px;
+	
+}
+
+/*  myPageLogo    */
+.myPageLogo{
+	/* border: 1px solid; */
+	width: 1200px;
+	height: 120px;
+	float: left;
+}
+.myPageLogo h3{
+	margin: 140px 0 0 50px;
+}
+/* 주문내역 */
+.myPageOrderListTitle{
+	width: 800px;
+	height: 120px;
+	/* border: 1px solid; */
+	margin-left: 50px;
+}
+
+.myPageOrderListTitle h3{
+	margin:70px 0 0 150px;
+	padding-top:70px;
+	padding-left: 100px;
+}
+/* 왼쪽바 메뉴 시작 */
+.leftMenu{
+	/*  border: 1px solid;  */
+	width: 250px;
+	height: 150px;
+	font-weight: bold;	
+	float:left;
+	margin-top:70px;
+}
+
+.leftMenu td{
+	border: 1px solid gray;
+	padding: 15px 0 15px 30px;
+	width: 140px;
+	
+}
+
+
+.leftMenu tr:nth-child(2)>td{
+	color: purple;
+}
+
+
+/* 주문내역 내용 */
+.orderListContent{
+	/* border: 1px solid; */
+	width: 900px;
+	height: 550px;
+	float:left;
+	padding: 0 0 0 10px;
+}
+.orderListContent table{
+	height: 150px;
+	width: 800px;
+	border-top: 2px solid purple; 
+}
+.orderListContent td{
+	padding-left:30px;
+}
+.orderListImg img{
+	width:90px;
+	height:120px;	
+}
+
+.orderListContent tr td input[type=button]{
+	width:70px;
+	height:30px;
+	color:white;
+	background: #5F0080;
+	border: 1px red solid;
+	border-radius: 5px;
+}
+
+/* -- */
+#container fieldset{
+	margin-top:100px;
+	/* height: 200px; */
+	border: 0px;
+}
+legend{
+	margin: 0 auto;
+	list-style:none;
+	border: none;
+}
+legend b{
+	font-size:22px;
+}
+
+.join tr{
+	margin-top:15px;
+	width:300px;
+	height:50px;
+	/* border: 1px solid; */
+}
+
+.join tr td input[type=password] , .join tr td input[type=text]{
+	width:350px;
+	height:20px;
+	padding:10px;
+	margin: 10px 7px 0 10px;
+}
+.join{
+	margin: 0 auto;
+}
+
+.join tr td input[type=submit]{
+	width:238px;
+	height:54px;
+	color:white;
+	background: #5F0080;
+	border: 1px black solid;
+	border-radius: 5px;
+	margin: 0 0 0 200px;
+
+}
+
+#container fieldset{
+	margin-top:50px;
+	height: 600px;
+	/* border: 1px solid; */
+}
